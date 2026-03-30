@@ -1,0 +1,987 @@
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:16:42.063364Z"}
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:18:19.827804Z"}
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:18:41.564072Z"}
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:19:39.076850Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/xet-read-token/0e1cd914e3d46199ed785853e12b57304e04178b "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/vocab.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/vocab.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/vocab.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/merges.txt "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/merges.txt "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/merges.txt "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/tokenizer.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/xet-read-token/7e9d7fe536a4d2bb472f9e883cc6cbbe81f68961 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/tokenizer.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/special_tokens_map.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/special_tokens_map.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:20:12.649346Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:20:12.649794Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T20:20:13.025479Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T20:20:13.025906Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T20:20:13.056582Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T20:20:13.056913Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T20:20:13.083179Z"}
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:23:33.033848Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:41.055128Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:41.055601Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T20:23:41.116958Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:41.117370Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T20:23:41.119160Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:41.119478Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T20:23:41.121745Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "ResponseGenerator", "event": "ResponseGenerator initialized with Groq API", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-26T20:23:41.533527Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-26T20:23:41.557700Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-26T20:23:41.558041Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:23:42.120555Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:52.294666Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:52.295138Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T20:23:52.355826Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:52.356185Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T20:23:52.357604Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T20:23:52.357848Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T20:23:52.359430Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+{"component": "ResponseGenerator", "event": "ResponseGenerator initialized with Groq API", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-26T20:23:52.798393Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-26T20:23:52.799979Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-26T20:23:52.800352Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+127.0.0.1 - - [27/Mar/2026 02:00:12] "[33mGET / HTTP/1.1[0m" 404 -
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:55:49.269127Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:02.546973Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:02.547380Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T20:56:02.643186Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:02.643676Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T20:56:02.645907Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:02.646609Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T20:56:02.649632Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "ResponseGenerator", "event": "ResponseGenerator initialized with Groq API", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-26T20:56:03.305844Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-26T20:56:03.308025Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-26T20:56:03.308559Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T20:56:04.034405Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:16.740285Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:16.740824Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T20:56:16.839868Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:16.840304Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T20:56:16.842322Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T20:56:16.842613Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T20:56:16.845478Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "ResponseGenerator", "event": "ResponseGenerator initialized with Groq API", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-26T20:56:17.498934Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-26T20:56:17.501628Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-26T20:56:17.502078Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T21:05:56.021826Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:08.409160Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:08.409598Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T21:06:08.511425Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:08.511937Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T21:06:08.514673Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:08.515041Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T21:06:08.517949Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "ResponseGenerator", "event": "ResponseGenerator initialized with Groq API", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-26T21:06:09.171771Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-26T21:06:09.173584Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-26T21:06:09.174074Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-26T21:06:09.981489Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:23.058446Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:23.059001Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-26T21:06:23.249613Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:23.250536Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-26T21:06:23.255232Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-26T21:06:23.255980Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-26T21:06:23.261040Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"component": "ResponseGenerator", "event": "ResponseGenerator initialized with Groq API", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-26T21:06:24.992901Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-26T21:06:24.998279Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-26T21:06:24.999414Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+127.0.0.1 - - [27/Mar/2026 02:37:29] "GET /api/health/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:37:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Mar/2026 02:42:30] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [27/Mar/2026 02:42:33] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:43:26] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:43:27] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:45:34] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [27/Mar/2026 02:45:36] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 02:45:54] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [27/Mar/2026 02:45:56] "POST /api/chat/message HTTP/1.1" 200 -
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T15:07:01.171859Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:02.687416Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:02.687834Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T15:07:02.951166Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:02.951691Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T15:07:02.954101Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:02.954342Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T15:07:02.956006Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T15:07:04.197254Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:05.793908Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:05.794192Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T15:07:05.854505Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:05.854781Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T15:07:05.856203Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:05.856438Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T15:07:05.857304Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T15:07:07.596768Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T15:07:11.115124Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T15:07:11.115507Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T15:07:11.119453Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T15:07:11.119811Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T15:07:11.374690Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T15:07:14.986835Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T15:07:14.987138Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T15:07:14.988755Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T15:07:14.989056Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T15:07:32.275329Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:33.900050Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:33.900433Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T15:07:33.988604Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:33.988966Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T15:07:33.991842Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T15:07:33.992694Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T15:07:33.994566Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T15:07:39.548514Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T15:07:43.240379Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T15:07:43.241144Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T15:07:43.244186Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T15:07:43.244842Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T17:27:23.364846Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:27:28.219841Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:27:28.220341Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T17:27:28.752212Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T17:27:28.752937Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T17:27:28.755199Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T17:27:28.755619Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T17:27:28.757458Z"}
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T17:27:37.973205Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T17:27:47.153690Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T17:27:47.154804Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T17:27:47.159866Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T17:27:47.160973Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T17:29:17.039406Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:29:20.232677Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:29:20.233673Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T17:29:20.461684Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T17:29:20.462649Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T17:29:20.467103Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T17:29:20.468135Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T17:29:20.473605Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T17:29:33.719830Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T17:29:41.928449Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T17:29:41.929572Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T17:29:41.934411Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T17:29:41.935506Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T17:30:21.389059Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:30:24.690602Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:30:24.691536Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T17:30:24.916180Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T17:30:24.917393Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T17:30:24.921582Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T17:30:24.922442Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T17:30:24.927514Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T17:30:34.947861Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T17:30:41.703249Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T17:30:41.704093Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T17:30:41.707481Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T17:30:41.708317Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T17:39:19.875314Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:39:22.432566Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:39:22.433141Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T17:39:22.559526Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T17:39:22.560092Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T17:39:22.562734Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T17:39:22.563073Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T17:39:22.564852Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T17:39:30.067849Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T17:39:38.059732Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T17:39:38.060716Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T17:39:38.064920Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T17:39:38.065936Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T17:40:11.695502Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:40:14.832792Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:40:14.834439Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T17:40:15.055987Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T17:40:15.056962Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T17:40:15.068666Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T17:40:15.069977Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T17:40:15.074420Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T17:40:28.765180Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T17:40:38.614968Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T17:40:38.616126Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T17:40:38.620997Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T17:40:38.622034Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+127.0.0.1 - - [27/Mar/2026 23:11:04] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Mar/2026 23:11:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Mar/2026 23:11:53] "GET /api/health/ HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 23:11:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Mar/2026 23:12:25] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+Error in send_message: 'ResponseGenerator' object has no attribute 'generate'
+127.0.0.1 - - [27/Mar/2026 23:12:26] "[35m[1mPOST /api/chat/message HTTP/1.1[0m" 500 -
+127.0.0.1 - - [27/Mar/2026 23:12:34] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+Error in send_message: 'ResponseGenerator' object has no attribute 'generate'
+127.0.0.1 - - [27/Mar/2026 23:12:34] "[35m[1mPOST /api/chat/message HTTP/1.1[0m" 500 -
+127.0.0.1 - - [27/Mar/2026 23:12:55] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+Error in send_message: 'ResponseGenerator' object has no attribute 'generate'
+127.0.0.1 - - [27/Mar/2026 23:12:55] "[35m[1mPOST /api/chat/message HTTP/1.1[0m" 500 -
+127.0.0.1 - - [27/Mar/2026 23:14:05] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+Error in send_message: 'ResponseGenerator' object has no attribute 'generate'
+127.0.0.1 - - [27/Mar/2026 23:14:05] "[35m[1mPOST /api/chat/message HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\app\\routes\\chat.py', reloading
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T17:56:35.683717Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:56:38.665956Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T17:56:38.666516Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T17:56:38.858185Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T17:56:38.859093Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T17:56:38.863844Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T17:56:38.864384Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T17:56:38.866813Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T17:57:12.218290Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T17:57:18.430946Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T17:57:18.432127Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T17:57:18.435987Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T17:57:18.437002Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T18:05:36.005128Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:05:39.292548Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:05:39.293617Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T18:05:39.955127Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T18:05:39.956473Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T18:05:39.961291Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T18:05:39.962143Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T18:05:39.966765Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T18:05:55.195575Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T18:06:01.019529Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T18:06:01.020726Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T18:06:01.025190Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T18:06:01.026297Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T18:06:42.185506Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:06:45.088986Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:06:45.089761Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T18:06:45.311215Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T18:06:45.312155Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T18:06:45.316303Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T18:06:45.317024Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T18:06:45.321419Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T18:06:59.648503Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T18:07:19.324589Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T18:07:19.325235Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T18:07:19.328318Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T18:07:19.329097Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+127.0.0.1 - - [27/Mar/2026 23:39:00] "[33mGET /health HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Mar/2026 23:50:55] "[33mGET /health HTTP/1.1[0m" 404 -
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T18:28:49.044097Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:28:51.080614Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:28:51.081014Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T18:28:51.170214Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T18:28:51.170744Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T18:28:51.172671Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T18:28:51.172974Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T18:28:51.175446Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T18:28:56.123846Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T18:29:00.587371Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T18:29:00.587875Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T18:29:00.589787Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T18:29:00.590101Z"}
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.168.210:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+{"path": "mannsaathi.db", "event": "Database initialized", "logger": "app.database", "level": "info", "timestamp": "2026-03-27T18:29:24.421497Z"}
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/j-hartmann/emotion-english-distilroberta-base/0e1cd914e3d46199ed785853e12b57304e04178b/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/main?p=1&limit=50 "HTTP/1.1 200 OK"
+{"component": "EmotionAnalyzer", "event": "ML emotion model loaded successfully", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:29:27.664154Z"}
+{"component": "EmotionAnalyzer", "ml_enhancement": true, "event": "EmotionAnalyzer initialized", "logger": "app.models.emotion_analyzer", "level": "info", "timestamp": "2026-03-27T18:29:27.665151Z"}
+{"component": "ImageAnalyzer", "error": "cannot import name 'FER' from 'fer' (C:\\Users\\akank\\Downloads\\mannsaathi-pro\\mannsaathi-backend\\venv\\Lib\\site-packages\\fer\\__init__.py)", "event": "FER model not available, using fallback", "logger": "app.models.image_analyzer", "level": "warning", "timestamp": "2026-03-27T18:29:27.878891Z"}
+{"component": "ImageAnalyzer", "event": "ImageAnalyzer initialized", "logger": "app.models.image_analyzer", "level": "info", "timestamp": "2026-03-27T18:29:27.879737Z"}
+{"component": "VoiceAnalyzer", "error": "No module named 'speechbrain'", "event": "SpeechBrain model not available", "logger": "app.models.voice_analyzer", "level": "warning", "timestamp": "2026-03-27T18:29:27.883318Z"}
+{"component": "VoiceAnalyzer", "event": "VoiceAnalyzer initialized", "logger": "app.models.voice_analyzer", "level": "info", "timestamp": "2026-03-27T18:29:27.883931Z"}
+{"component": "CrisisDetector", "event": "CrisisDetector initialized", "logger": "app.services.crisis_detector", "level": "info", "timestamp": "2026-03-27T18:29:27.886327Z"}
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/discussions?p=0 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017 "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/j-hartmann/emotion-english-distilroberta-base/commits/refs%2Fpr%2F3017?p=1&limit=50 "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/resolve/refs%2Fpr%2F3017/model.safetensors "HTTP/1.1 302 Found"
+{"providers": ["<LLMProvider.GROQ: 'groq'>", "<LLMProvider.OPENAI: 'openai'>", "<LLMProvider.GEMINI: 'gemini'>", "<LLMProvider.COHERE: 'cohere'>"], "event": "Multi-LLM Manager initialized", "logger": "app.services.multi_llm_manager", "level": "info", "timestamp": "2026-03-27T18:29:43.784101Z"}
+Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+{"event": "Loaded existing knowledge base", "logger": "app.services.knowledge_base", "level": "info", "timestamp": "2026-03-27T18:29:48.705744Z"}
+{"event": "Enhanced Response Generator initialized with multi-LLM support", "logger": "app.services.response_generator", "level": "info", "timestamp": "2026-03-27T18:29:48.706514Z"}
+{"component": "NLPPreprocessor", "event": "NLPPreprocessor initialized", "logger": "app.services.nlp_preprocessor", "level": "info", "timestamp": "2026-03-27T18:29:48.709427Z"}
+{"version": "2.0.0", "config": "development", "event": "MannSaathi Pro initialized", "logger": "app", "level": "info", "timestamp": "2026-03-27T18:29:48.710627Z"}
+ * Debugger is active!
+ * Debugger PIN: 211-121-055
+127.0.0.1 - - [28/Mar/2026 00:01:48] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [28/Mar/2026 00:01:58] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [28/Mar/2026 00:02:18] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 404 Not Found"
+127.0.0.1 - - [28/Mar/2026 00:02:21] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [28/Mar/2026 00:02:36] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [28/Mar/2026 00:02:38] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [28/Mar/2026 00:02:56] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [28/Mar/2026 00:03:00] "POST /api/chat/message HTTP/1.1" 200 -
+127.0.0.1 - - [28/Mar/2026 00:03:40] "OPTIONS /api/chat/message HTTP/1.1" 200 -
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+127.0.0.1 - - [28/Mar/2026 00:03:45] "POST /api/chat/message HTTP/1.1" 200 -

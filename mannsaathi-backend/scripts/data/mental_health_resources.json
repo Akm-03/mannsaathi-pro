@@ -1,0 +1,138 @@
+{
+  "created_at": "2026-03-27T19:39:53.808162",
+  "total_resources": 12,
+  "resources": [
+    {
+      "source": "NIMHANS_Guidelines",
+      "category": "indian_context",
+      "language": "english",
+      "tags": [
+        "india",
+        "clinical",
+        "guidelines"
+      ],
+      "content": "\n                NIMHANS Guidelines for Mental Health in India:\n                \n                Common Mental Health Issues in India:\n                1. Depression - affects 45 million Indians\n                2. Anxiety disorders - affects 40 million Indians\n                3. Stress-related disorders - increasing in urban areas\n                4. Substance abuse - particularly alcohol in rural areas\n                \n                Culturally Appropriate Interventions:\n                - Use family-based therapy approaches\n                - Incorporate traditional healing practices\n                - Address stigma through community education\n                - Utilize peer support groups\n                - Leverage community health workers (ASHA workers)\n                "
+    },
+    {
+      "source": "Indian_Family_Dynamics",
+      "category": "cultural",
+      "language": "hinglish",
+      "tags": [
+        "family",
+        "india",
+        "relationships"
+      ],
+      "content": "\n                Indian Family Dynamics and Mental Health:\n                \n                Common Family-Related Stressors:\n                1. Marriage pressure (age, arranged marriages, inter-caste)\n                2. Career expectations (doctor/engineer syndrome)\n                3. Financial responsibilities toward family\n                4. Caring for elderly parents\n                5. Parenting pressures (academic performance)\n                \n                Supportive Approaches:\n                - \"Family counseling can help everyone understand each other better\"\n                - \"Setting boundaries while maintaining respect is possible\"\n                - \"It's okay to seek help - mental health is family health\"\n                - \"Open communication can reduce misunderstandings\"\n                "
+    },
+    {
+      "source": "Urban_Stress_India",
+      "category": "stress",
+      "language": "hinglish",
+      "tags": [
+        "urban",
+        "work",
+        "stress"
+      ],
+      "content": "\n                Urban Stress in Indian Cities:\n                \n                Common Urban Stressors:\n                1. Traffic and commute stress (2-3 hours daily in metros)\n                2. Work pressure and job insecurity\n                3. High cost of living and housing stress\n                4. Social isolation despite crowded cities\n                5. Technology overload and screen time\n                \n                Coping Strategies for Urban Indians:\n                - Micro-breaks: 5 minutes every hour away from screens\n                - Morning walk or yoga before traffic rush\n                - Connect with community groups (apartment associations, clubs)\n                - Digital detox on weekends\n                - Find green spaces even in cities (parks, terrace gardens)\n                "
+    },
+    {
+      "source": "WHO_Mental_Health",
+      "category": "global_guidelines",
+      "language": "english",
+      "tags": [
+        "who",
+        "global",
+        "guidelines"
+      ],
+      "content": "\n                WHO Mental Health Guidelines:\n                \n                Key Principles:\n                1. Mental health is a universal human right\n                2. No health without mental health\n                3. Community-based care is more effective than institutionalization\n                4. Early intervention prevents chronic conditions\n                \n                Evidence-Based Interventions:\n                - Psychological interventions: CBT, IPT, problem-solving therapy\n                - Pharmacological interventions when appropriate\n                - Psychosocial support: peer support, family interventions\n                - mHealth: using technology to deliver mental health services\n                "
+    },
+    {
+      "source": "Positive_Psychology",
+      "category": "wellbeing",
+      "language": "english",
+      "tags": [
+        "happiness",
+        "wellbeing",
+        "strengths"
+      ],
+      "content": "\n                Positive Psychology Interventions:\n                \n                Evidence-Based Practices:\n                1. Gratitude Journaling: Write 3 things you're grateful for daily\n                2. Signature Strengths: Identify and use your top 5 strengths\n                3. Acts of Kindness: Do 5 kind things weekly\n                4. Savoring: Mindfully enjoy positive experiences\n                5. Best Possible Self: Visualize your ideal future\n                \n                Simple Practice:\n                \"Before sleeping, think of one good thing that happened today\"\n                \"Write a gratitude letter to someone who helped you\"\n                "
+    },
+    {
+      "source": "Crisis_Protocol",
+      "category": "crisis",
+      "language": "english",
+      "tags": [
+        "crisis",
+        "suicide",
+        "emergency"
+      ],
+      "content": "\n                Crisis Intervention Protocol:\n                \n                Step 1: Assess Risk\n                - Ask directly: \"Are you thinking about suicide?\"\n                - Determine if they have a plan, means, timeline\n                - Ask about previous attempts\n                \n                Step 2: Ensure Safety\n                - Remove means (medications, weapons)\n                - Don't leave person alone\n                - Contact emergency services if imminent risk\n                \n                Step 3: Provide Support\n                - Listen without judgment\n                - Validate their pain: \"I can hear how much pain you're in\"\n                - Express hope: \"This feeling won't last forever\"\n                - Connect to professional help\n                \n                Indian Crisis Helplines:\n                - iCall: 9152987821 (24/7)\n                - Vandrevala Foundation: 9999666555 (24/7)\n                - AASRA: 9820466726 (24/7)\n                - Sneha: 044-24640050 (Chennai)\n                \n                What to Say:\n                \"You are not alone\"\n                \"Your feelings are valid\"\n                \"There is help available\"\n                "
+    },
+    {
+      "source": "Hinglish_Communication",
+      "category": "communication",
+      "language": "hinglish",
+      "tags": [
+        "hinglish",
+        "communication",
+        "india"
+      ],
+      "content": "\n                Effective Hinglish Communication for Mental Health:\n                \n                Key Phrases:\n                - \"Aap akela nahi hain\" (You're not alone)\n                - \"Main samajh sakta/sakti hoon\" (I understand)\n                - \"Yeh bahut common hai\" (This is very common)\n                - \"Aap strong hain\" (You are strong)\n                - \"Step by step, sab theek ho jayega\" (Step by step, everything will be okay)\n                \n                Normalizing Language:\n                \"Mental health issues kisi ko bhi ho sakte hain\"\n                \"Stress hona normal hai, lekin agar bahut zyada ho toh help lena important hai\"\n                "
+    },
+    {
+      "source": "Yoga_Mindfulness",
+      "category": "traditional_practices",
+      "language": "english",
+      "tags": [
+        "yoga",
+        "mindfulness",
+        "meditation"
+      ],
+      "content": "\n                Yoga and Mindfulness for Mental Health:\n                \n                Simple Practices:\n                \n                1. Pranayama (Breathing):\n                   - Anulom Vilom: Alternate nostril breathing (5 minutes)\n                   - Bhramari: Humming bee breath for anxiety\n                   - Deep breathing: Inhale 4, hold 4, exhale 6\n                \n                2. Mindfulness Meditation:\n                   - Body scan: 5-10 minutes\n                   - Mindful eating: Eat one meal without distractions\n                   - Walking meditation: Focus on each step\n                \n                3. Yoga Asanas:\n                   - Child's pose (Balasana): For anxiety\n                   - Legs up wall (Viparita Karani): For stress\n                   - Cat-cow stretch: For releasing tension\n                "
+    },
+    {
+      "source": "Student_Resources",
+      "category": "students",
+      "language": "hinglish",
+      "tags": [
+        "students",
+        "exams",
+        "education"
+      ],
+      "content": "\n                Student Mental Health Support:\n                \n                Common Issues:\n                - Exam anxiety and performance pressure\n                - Career choice stress\n                - Peer pressure and social media\n                - Relationship issues\n                - Family expectations\n                \n                Coping Strategies:\n                1. Study Smart: 45-minute study blocks with 15-min breaks\n                2. Sleep: Minimum 7-8 hours (critical for memory)\n                3. Exercise: 30 minutes daily (reduces anxiety)\n                4. Connect: Talk to friends and family\n                \n                When to Seek Help:\n                - Constant worry affecting studies\n                - Loss of interest in activities\n                - Sleep or appetite changes\n                - Thoughts of self-harm\n                "
+    },
+    {
+      "source": "Elderly_Care",
+      "category": "elderly",
+      "language": "hinglish",
+      "tags": [
+        "elderly",
+        "aging",
+        "seniors"
+      ],
+      "content": "\n                Mental Health Support for Elderly:\n                \n                Common Challenges:\n                - Loneliness and isolation\n                - Health issues and mobility limitations\n                - Loss of spouse or friends\n                - Feeling of being a burden\n                - Financial dependence\n                \n                Support Strategies:\n                1. Regular Social Connection:\n                   - Daily phone calls with family\n                   - Senior citizen groups\n                   - Community center activities\n                \n                2. Maintain Purpose:\n                   - Share wisdom with younger generation\n                   - Hobbies and interests\n                   - Volunteer if possible\n                \n                Warning Signs:\n                - Withdrawal from activities\n                - Neglecting personal care\n                - Memory concerns\n                - Expressing hopelessness\n                "
+    },
+    {
+      "source": "CBT_Techniques",
+      "category": "therapy",
+      "language": "english",
+      "tags": [
+        "cbt",
+        "thoughts",
+        "patterns"
+      ],
+      "content": "\n                Cognitive Behavioral Therapy (CBT) Techniques:\n                \n                Technique 1: Thought Challenging\n                - Identify negative thought\n                - Evidence for the thought?\n                - Evidence against the thought?\n                - Balanced alternative thought\n                \n                Example:\n                Thought: \"I always fail at everything\"\n                Evidence for: \"Failed one exam\"\n                Evidence against: \"Passed other subjects, good at sports\"\n                Balanced: \"Sometimes I face challenges, but I also have successes\"\n                \n                Technique 2: Behavioral Activation\n                - Schedule enjoyable activities\n                - Start with small, achievable tasks\n                - Notice mood before and after\n                - Gradually increase activities\n                "
+    },
+    {
+      "source": "DBT_Skills",
+      "category": "skills",
+      "language": "english",
+      "tags": [
+        "dbt",
+        "emotions",
+        "regulation"
+      ],
+      "content": "\n                Dialectical Behavior Therapy (DBT) Skills:\n                \n                Mindfulness Skills:\n                - Observe: Notice thoughts without judgment\n                - Describe: Put words to experiences\n                - Participate: Fully engage in present moment\n                \n                Distress Tolerance - TIP:\n                - Temperature: Cold water on face\n                - Intense exercise\n                - Paced breathing\n                \n                Emotional Regulation - PLEASE:\n                - Physical health\n                - Lack of substances\n                - Eat balanced\n                - Avoid mood-altering drugs\n                - Sleep well\n                - Exercise\n                "
+    }
+  ]
+}
